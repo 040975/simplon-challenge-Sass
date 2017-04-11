@@ -1,0 +1,57 @@
+$image:url("../../img/background.png");
+$image2:url("../../img/logo.png");
+body{
+  background-image:$image;
+  background:{
+    position:center;
+    repeat: no-repeat;
+    size:cover;
+
+  }
+  overflow:hidden;
+
+  height:500px;
+}
+$color:#7347C4;
+h3{
+  color:$color;
+  margin-left:3%;
+}
+.logo{
+  background-image:$image2;
+  background:{
+    position:center;
+    repeat:no-repeat;
+    size:cover;
+  }
+  width:40%;
+  height:200px;
+  margin:{
+    left:1%;
+    top:100px;
+  }
+
+}
+p{
+  width:38%;
+  text-align:justify;
+  margin-left:3%;
+  color:white;
+  font-size:9px;
+}
+button{
+  background-color:$color;
+  color:white;
+  border:none;
+  height:30px;
+  margin-left:3%;
+  text-align:center;
+}
+span{
+  font-size:bold;
+}
+img{
+  text-align:center;
+  margin:auto;
+  vertical-align: -12px;
+}

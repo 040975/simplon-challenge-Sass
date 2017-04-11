@@ -1,0 +1,46 @@
+body {
+  background-image: url("../../img/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 560px; }
+
+h3 {
+  color: #7347C4;
+  margin-left: 3%; }
+
+.logo {
+  background-image: url("../../img/logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40%;
+  height: 200px;
+  margin-left: 1%;
+  margin-top: 100px; }
+
+p {
+  width: 38%;
+  text-align: justify;
+  margin-left: 3%;
+  color: white;
+  font-size: 9px; }
+
+button {
+  background-color: #7347C4;
+  color: white;
+  border: none;
+  height: 30px;
+  margin-left: 3%;
+  text-align: center; }
+
+span {
+  font-size: bold; }
+
+img {
+  text-align: center;
+  margin: auto;
+  vertical-align: -12px; }
+
+/*# sourceMappingURL=sass.css.map */
